@@ -1,0 +1,33 @@
+{
+  "name": "svelte-tigre",
+  "version": "1.0.0",
+  "description": "TodoMVC implemented in Svelte",
+  "scripts": {
+    "update": "yarn upgrade-interactive --latest",
+    "build": "rollup -c",
+    "dev": "rollup -cw"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/owlaford/tigre.git"
+  },
+  "keywords": [
+    "svelte"
+  ],
+  "author": "OwlAford",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/owlaford/tigre/issues"
+  },
+  "homepage": "https://github.com/owlaford/tigre",
+  "devDependencies": {
+    "rollup": "^1.7.3",
+    "rollup-plugin-buble": "^0.19.2",
+    "rollup-plugin-filesize": "^6.0.1",
+    "rollup-plugin-node-resolve": "^4.0.1",
+    "rollup-plugin-svelte": "^5.0.3",
+    "rollup-plugin-terser": "^4.0.4",
+    "surge": "^0.20.1",
+    "svelte": "^3.0.0-beta.20"
+  }
+}
